@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+  <link data-require="bootstrap@*" data-semver="3.3.2" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+  <script data-require="bootstrap@*" data-semver="3.3.2" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script data-require="jquery@2.1.3" data-semver="2.1.3" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  
+  <script data-require="knockout@*" data-semver="3.3.0" src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+  <script data-require="knockout.mapping@*" data-semver="2.3.5" src="//cdnjs.cloudflare.com/ajax/libs/knockout.mapping/2.3.5/knockout.mapping.js"></script>
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  
+
+  <div class="container">
+    <h2 class="navbar-text">History</h2>
+  </div>
+  <div id="exTab2" class="container">
+    <ul class="nav nav-tabs">
+      <li class="active">
+        <a href="#1" data-toggle="tab">Messages</a>
+      </li>
+      <li>
+        <a href="#2" data-toggle="tab">Salary Raises</a>
+      </li>
+      <li>
+        <a href="#3" data-toggle="tab">Benefits</a>
+      </li>
+      <li>
+        <a href="#4" data-toggle="tab">Devices</a>
+      </li>
+      <li>
+        <a href="#5" data-toggle="tab">Bank Info</a>
+      </li>
+    </ul>
+    <div class="tab-content ">
+      
+      
+        <!-- Messages Tab -->
+      
+      <div class="tab-pane active" id="1">
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="home">
+            <div class="list-group">
+              <div class="table-responsive">
+                <table id="msg" class="messages table table-condensed table-hover" style="border-collapse:collapse;">
+                  <tbody>
+
+                    <tr data-toggle="collapse" data-target="#demo1">
+                      <td>Al Stalla</td>
+                      <td>Outrage of Networks.</td>
+                      <td class="smaller-text">Aerospace is turning 55 on June 4, 2015!</td>
+                      <td>05/12/2016</td>
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="4" class="hiddenRow">
+                        <div id="demo1" class="collapse">
+                          <p class="par">
+                            Aerospace is turning 55 on June 4, 2015! In celebration of this milestone, a SharePoint site will be available to allow employees to share photos and memories of Aerospace. Watch
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr data-toggle="collapse" data-target="#demo2">
+                      <td>Eric Strode</td>
+                      <td>Back to Kitchen!</td>
+                      <td class="smaller-text">Get off the computers. You are supposed to ...</td>
+                      <td>05/12/2016</td>
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="4" class="hiddenRow">
+                        <div id="demo2" class="collapse">
+                          <p class="par">
+                            Get off the computers. You are supposed to cook me a sandwich.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr data-toggle="collapse" data-target="#demo3">
+                      <td>Jorge Quero</td>
+                      <td>Fiestas Patrias Chile</td>
+                      <td class="smaller-text">Todo comenzó en el año 1810, cua...</td>
+                      <td>05/12/2016</td>
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="4" class="hiddenRow">
+                        <div id="demo3" class="collapse">
+                          <p class="par">
+                            Todo comenzó en el año 1810, cuando en Europa el ejército de Napoleón atacaba España y tomaba prisionero al rey Felipe de España, tomando el poder de España Pepé Botella (primo de Napoleón) quien no le importaba mucho las colonias españolas. A causa de
+                            esto, la información que llegaba desde Europa hacia el virreinato del Perú desalentó a muchos de los españoles que estaban en las diversas colonias en América, bajando la guardia y replegando la fuerza militar que oprimía al
+                            pueblo Chileno. Bajo este escenario, Don Mateo Toro Zambrano el 18 de septiembre de 1810, presidió la primera junta nacional de gobierno la cual daría el inicia de un proceso de independencia, el cual duro alrededor de ocho
+                            años. En esta misma reunión se instituyó la forma de hacer el comercio sustentable en Chile y la creación del primer ejército de Chile el cual haría frente al ejército realista.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr data-toggle="collapse" data-target="#demo4">
+                      <td>Barron Omega</td>
+                      <td>Chess Club</td>
+                      <td class="smaller-text">Some default panel content here. Nulla...</td>
+                      <td>05/12/2016</td>
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="4" class="hiddenRow">
+                        <div id="demo4" class="collapse">
+                          <p class="par">
+                            Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id
+                            elit.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Salary Raises Tab -->
+      
+      <div class="tab-pane" id="2">
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="home">
+            <div class="list-group">
+              <div class="table-responsive">
+                <table class="messages table table-condensed table-hover" style="border-collapse:collapse;">
+                  <tbody>
+                    <tr data-toggle="collapse" data-target="#demo1">
+                      <td>Jennifer Halford</td>
+                      <td>New Position: Software Engineer</td>
+                      <td class="raise">+1000%</td>
+                      <td class="right">05/12/2016</td>
+                    </tr>
+
+                    <tr data-toggle="collapse" data-target="#demo1">
+                      <td>Jennifer Halford</td>
+                      <td>New Position: Software Engineer</td>
+                      <td class="raise">+1000%</td>
+                      <td class="right">05/12/2016</td>
+                    </tr>
+
+                    <tr data-toggle="collapse" data-target="#demo1">
+                      <td>Jennifer Halford</td>
+                      <td>New Position: Software Engineer</td>
+                      <td class="raise">+0.10%</td>
+                      <td class="right">05/12/2016</td>
+                    </tr>
+
+                    <tr data-toggle="collapse" data-target="#demo1">
+                      <td>Jennifer Halford</td>
+                      <td>New Position: Software Engineer</td>
+                      <td class="raise">+10%</td>
+                      <td class="right">05/12/2016</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--Benefits Tab -->
+      
+        <div class="tab-pane" id="4">
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="home">
+            <div class="list-group">
+              <div class="table-responsive accordion-btn">
+                <table class="messages table table-condensed table-hover" style="border-collapse:collapse;">
+                  <tbody>
+                    
+                    <tr data-toggle="collapse" data-target="#demoD1">
+                      <td> <i class="fa fa-laptop"></i></td>
+                      <td>DSA256</td>
+                      <td>Apple MacBook Air</td>
+                      <td>05/12/2016</td>
+                      <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD1" class="collapse">
+                          <p class="par">
+                             New encrypted laptop for a programming project.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-toggle="collapse" data-target="#demoD2">
+                      <td> <i class="fa fa-mobile"></i></td>
+                      <td>ADG000</td>
+                      <td>iPhone 5s </td>
+                      <td>05/12/2016</td>
+                       <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD2" class="collapse">
+                          <p class="par">
+                             New iPhone was given for better communication with staff. Use only to contact staff.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-toggle="collapse" data-target="#demoD3">
+                      <td> <i class="fa fa-desktop"></i></td>
+                      <td>ADG000</td>
+                      <td>Dell Precision T5810</td>
+                      <td>05/12/2016</td>
+                       <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD3" class="collapse">
+                          <p class="par">
+                             New desktop was given for better communication with staff. Use only to contact staff.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- Devices Tab -->
+      
+      <div class="tab-pane" id="3">
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="home">
+            <div class="list-group">
+              <div class="table-responsive accordion-btn">
+                <table class="messages table table-condensed table-hover" style="border-collapse:collapse;">
+                  <tbody>
+                    
+                    <tr data-toggle="collapse" data-target="#demoD1">
+                      <td> <i class="fa fa-laptop"></i></td>
+                      <td>Horosho</td>
+                      <td>Apple MacBook Air</td>
+                      <td>05/12/2016</td>
+                      <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD1" class="collapse">
+                          <p class="par">
+                             New encrypted laptop for a programming project.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-toggle="collapse" data-target="#demoD2">
+                      <td> <i class="fa fa-mobile"></i></td>
+                      <td>ADG000</td>
+                      <td>iPhone 5s </td>
+                      <td>05/12/2016</td>
+                       <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD2" class="collapse">
+                          <p class="par">
+                             New iPhone was given for better communication with staff. Use only to contact staff.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-toggle="collapse" data-target="#demoD3">
+                      <td> <i class="fa fa-desktop"></i></td>
+                      <td>ADG000</td>
+                      <td>Dell Precision T5810</td>
+                      <td>05/12/2016</td>
+                       <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD3" class="collapse">
+                          <p class="par">
+                             New desktop was given for better communication with staff. Use only to contact staff.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+    <!-- Bank Info Tab -->  
+       
+       <div class="tab-pane" id="5">
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="home">
+            <div class="list-group">
+              <div class="table-responsive accordion-btn">
+                <table class="messages table table-condensed table-hover" style="border-collapse:collapse;">
+                  <tbody>
+                    
+                    <tr data-toggle="collapse" data-target="#demoD1">
+                      <td> <i class="fa fa-laptop"></i></td>
+                      <td>fdgfdgfdgfd</td>
+                      <td>Apple MacBook Air</td>
+                      <td>05/12/2016</td>
+                      <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD1" class="collapse">
+                          <p class="par">
+                             New encrypted laptop for a programming project.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-toggle="collapse" data-target="#demoD2">
+                      <td> <i class="fa fa-mobile"></i></td>
+                      <td>ADG000</td>
+                      <td>iPhone 5s </td>
+                      <td>05/12/2016</td>
+                       <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD2" class="collapse">
+                          <p class="par">
+                             New iPhone was given for better communication with staff. Use only to contact staff.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-toggle="collapse" data-target="#demoD3">
+                      <td> <i class="fa fa-desktop"></i></td>
+                      <td>ADG000</td>
+                      <td>Dell Precision T5810</td>
+                      <td>05/12/2016</td>
+                       <td><div class="dropdown-toggle" data-toggle="dropdown">Comments
+    <span class="caret"></span></div></td>
+                        
+                    </tr>
+                    <tr class="tr-el">
+                      <td colspan="5" class="hiddenRow">
+                        <div id="demoD3" class="collapse">
+                          <p class="par">
+                             New desktop was given for better communication with staff. Use only to contact staff.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!--Tabs end here -->
+      
+    </div>
+  </div>
+  
+  
+  <!--History Panel ends here... -->
+  
+  <div class="col-md-12 text-center">
+      <ul class="pagination pagination-lg pager" id="myPager"></ul>
+      </div>
+  
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

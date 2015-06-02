@@ -1,0 +1,73 @@
+/* Styles go here */
+
+h1,
+h2,
+h3 {
+  color: #428bca;
+}
+.customBut {
+  width: 120px;
+  background-color: #428bca;
+  position: relative;
+  bottom: -10px;
+}
+.date {
+  float: right;
+}
+.coefficient {
+  position: fixed;
+  right: 20px;
+}
+.smaller-text {
+  color: #C0C0C0;
+}
+.messages {
+  border: 1px solid #E5E5E5;
+}
+.messages tr {
+  cursor: pointer;
+}
+.hiddenRow {
+    padding: 0 !important;
+}
+.par{
+  padding: 10px;
+}
+.hiddenRow{
+  background-color: #F8F8F8 ;
+}
+.right{
+  text-align: center;
+}
+.comment{
+  color: black;
+}
+.arrowGreen {
+  -moz-transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+}
+.rotate90 {
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+
+.slideshow {
+  position: relative;
+}
+.slideshow table {
+    position: absolute;
+    display: none;
+}
+.slideshow table:first-child {
+    display: block;
+    /* overrides the previous style */
+}
